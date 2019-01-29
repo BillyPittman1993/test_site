@@ -1,0 +1,179 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background-color: #e1e4ea;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #275fba;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  float: right;
+}
+
+.join-now {
+  background-color: white;
+  color: #275fba;
+  border: 1px solid #275fba;
+  float: left;
+}
+
+nav a:hover {
+  border: 1px solid white;
+}
+
+main {
+  display: flex;
+  margin-bottom: 2em;
+  background-image: url("https://images.pexels.com/photos/1629212/pexels-photo-1629212.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.section-container-1 {
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.section-container-1 h2 {
+  padding: 1.5em;
+  text-align: center;
+}
+
+ .section-container-1 .btn {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #275fba;
+  color: white;
+  font-size: medium;
+  height: 3em;
+  width: auto;
+  padding: 1em;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+main .btn:hover {
+  background-color: #2e71dd;
+  color: white;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  margin: 2em;
+  height: auto;
+  width: 100%;
+}
+
+.grid-1 {
+  margin-right: 1em;
+  padding: 2em;
+  border-radius: 10px;
+  background-color: #275fba;
+  color: white;
+  width: 50%;
+}
+
+.grid-2 {
+  width: 35%;
+  padding: 2em;
+  border-radius: 10px;
+  background-color: #275fba;
+  color: white;
+}
+
+section {
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  background-image: url("https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+section .section-container {
+  margin: auto;
+  padding: 1em;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.section-container h2 {
+  padding: 1em;
+  text-align: center;
+}
+
+ .section-container .btn {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #275fba;
+  color: white;
+  font-size: medium;
+  height: auto;
+  width: auto;
+  padding: 1em;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+section .btn:hover {
+  background-color: #2e71dd;
+  color: white;
+}
+
+footer {
+  background-color: #275fba;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  height: 4em;
+}
+
+.foot-1 {
+  padding: 1em;
+}
+
+.foot-1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.foot-1 a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
